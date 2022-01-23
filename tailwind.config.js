@@ -15,11 +15,14 @@ module.exports = {
         13: '3.25rem',
         14: '3.5rem',
       },
+      fontSize: {
+        '8.5xl': '7rem',
+      },
       fontFamily: {
         sans: ['Inter', ...defaultTheme.fontFamily.sans],
       },
       colors: {
-        primary: colors.teal,
+        primary: colors.orange,
         gray: colors.neutral,
       },
       typography: (theme) => ({
